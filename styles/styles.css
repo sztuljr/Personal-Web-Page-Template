@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'omotype_stdblack_one';
+    src: url('../fonts/omotype_std-black_one_web-webfont.eot');
+    src: url('../fonts/omotype_std-black_one_web-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/omotype_std-black_one_web-webfont.woff2') format('woff2'),
+         url('../fonts/omotype_std-black_one_web-webfont.woff') format('woff'),
+         url('../fonts/omotype_std-black_one_web-webfont.ttf') format('truetype'),
+         url('../fonts/omotype_std-black_one_web-webfont.svg#omotype_stdblack_one') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'omotype_stdbook_one';
+    src: url('../fonts/omotype_std-book_one_web-webfont.eot');
+    src: url('../fonts/omotype_std-book_one_web-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/omotype_std-book_one_web-webfont.woff2') format('woff2'),
+         url('../fonts/omotype_std-book_one_web-webfont.woff') format('woff'),
+         url('../fonts/omotype_std-book_one_web-webfont.ttf') format('truetype'),
+         url('../fonts/omotype_std-book_one_web-webfont.svg#omotype_stdbook_one') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Supermolot Neue';
+    src: url('../fonts/TTSupermolotNeue-Regular.eot');
+    src: url('../fonts/TTSupermolotNeue-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TTSupermolotNeue-Regular.woff2') format('woff2'),
+        url('../fonts/TTSupermolotNeue-Regular.woff') format('woff'),
+        url('../fonts/TTSupermolotNeue-Regular.ttf') format('truetype'),
+        url('../fonts/TTSupermolotNeue-Regular.svg#TTSupermolotNeue-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Supermolot Neue Expanded';
+    src: url('../fonts/TTSupermolotNeueExpanded-Reg.eot');
+    src: url('../fonts/TTSupermolotNeueExpanded-Reg.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TTSupermolotNeueExpanded-Reg.woff2') format('woff2'),
+        url('../fonts/TTSupermolotNeueExpanded-Reg.woff') format('woff'),
+        url('../fonts/TTSupermolotNeueExpanded-Reg.ttf') format('truetype'),
+        url('../fonts/TTSupermolotNeueExpanded-Reg.svg#TTSupermolotNeueExpanded-Reg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 92%;
+	max-width: 960px;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
+	background: black;
+}
+/* Header */
+header {
+	text-align: center;
+	display: block;
+	width: 100%;
+	float: none;
+}
+header .profileHeader {
+	text-align: left;
+	/* padding-top: 6%; */
+}
+header .profileHeader h1 {
+	font-family: 'TT Supermolot Neue Expanded', sans-serif;
+	color: white;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 24px;
+	padding-left: 2%;
+}
+/* Footer */
+footer .copyright {
+	float: right;
+	font-family: 'TT Supermolot Neue Expanded', sans-serif;
+	color: white;
+	font-size: 20px;
+	font-weight: 100;
+	line-height: 24px;
+}
+hr {
+	border-color: white;
+	color: white;
+	background-color: white;
+	height: 1px;
+}
+img {
+	float: right;
+	width: 72px;
+}
+.socials .box { 
+	display:table; 
+} 
+.socials .box .box-row { 
+	display:table-row; 
+} 
+.socials .box .box-cell { 
+	display:table-cell; 
+	border:1px solid black; 
+	width:25%; 
+	padding:10px; 
+} 
+.socials .box .box-cell .image {
+  	float: left;
+  	width:44%;
+	padding-right: 2%;
+}
+.socials .box .box-cell .text {
+	float: right;
+ 	width:54%;
+}
+.socials p {
+	font-family: 'TT Supermolot Neue Expanded', sans-serif;
+	color: white;
+	font-size: 25px;
+	text-align: left;
+}
+
+.socials a {
+	text-decoration: none
+}
+
+@media only screen and (max-width:1100px) {
+	header .profileHeader h1 {
+		font-family: 'TT Supermolot Neue Expanded', sans-serif;
+		color: white;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 24px;
+	}
+	footer .copyright {
+		float: right;
+		font-family: 'TT Supermolot Neue Expanded', sans-serif;
+		color: white;
+		font-size: 15px;
+		font-weight: 100;
+		line-height: 24px;
+	}
+	img {
+		float: right;
+		width: 48px;
+	}
+	.socials .box .box-cell .image {
+		float: left;
+		width:22%;
+		padding-right: 2%;
+	}
+	.socials .box .box-cell .text {
+		float: right;
+		width:76%;
+	}
+	.socials p {
+		font-family: 'TT Supermolot Neue Expanded', sans-serif;
+		color: white;
+		font-size: 16px;
+		text-align: left;
+	}
+}

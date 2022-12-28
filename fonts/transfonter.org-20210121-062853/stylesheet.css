@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'TT Supermolot Neue';
+    src: url('TTSupermolotNeue-Regular.eot');
+    src: url('TTSupermolotNeue-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TTSupermolotNeue-Regular.woff2') format('woff2'),
+        url('TTSupermolotNeue-Regular.woff') format('woff'),
+        url('TTSupermolotNeue-Regular.ttf') format('truetype'),
+        url('TTSupermolotNeue-Regular.svg#TTSupermolotNeue-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
